@@ -1,13 +1,12 @@
 #include "complex.h"
 #include <cmath>
 #include <regex>
-#include <sstream>
 
-Complex::Complex(double re)
-    : re(re)
+Complex::Complex(const double re)
+    : re(re), im(0)
 {}
 
-Complex::Complex(double re, double im)
+Complex::Complex(const double re, const double im)
     : re(re)
     , im(im)
 {}

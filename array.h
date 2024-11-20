@@ -1,11 +1,12 @@
 #ifndef ARRAY_H
 #define ARRAY_H
 
-#include "number.h"
+//#include "number.h"
 #include <initializer_list>
 #include <iostream>
 #include <stdexcept>
 
+template <class number>
 class Array
 {
 private:
@@ -35,5 +36,7 @@ public:
     number &operator[](size_t index);
     const number &operator[](size_t index) const;
 };
+
+#include "array.hpp"
 
 #endif // ARRAY_H

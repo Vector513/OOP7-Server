@@ -12,8 +12,8 @@ private:
 
 public:
     Complex() = default;
-    Complex(double re);
-    Complex(double re, double im);
+    Complex(const double re);
+    Complex(const double re, const double im);
 
     ~Complex() = default;
 

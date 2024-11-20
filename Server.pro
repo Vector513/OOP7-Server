@@ -12,10 +12,10 @@ CONFIG += c++17
 
 SOURCES += \
     application.cpp \
-    array.cpp \
+    array.hpp \
     complex.cpp \
     main.cpp \
-    polynom.cpp \
+    polynom.hpp \
     tcpServer.cpp
 
 HEADERS += \
